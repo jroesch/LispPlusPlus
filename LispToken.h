@@ -15,10 +15,10 @@ public:
 	LispToken();
 	LispToken(const LispToken& other);
 	LispToken operator=(const LispToken& other);
-    static LispToken* newToken(string token);
-    string getType() const;
-	string getToken() const ; 
-    virtual void print();
+	static LispToken* newToken(string token);
+	string getType() const;
+	string getToken() const ;
+	virtual void print();
 protected:
 	string type, token;
 };
