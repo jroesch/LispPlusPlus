@@ -25,7 +25,7 @@ protected:
 
 class SymbolToken: public LispToken {
 public:
-    //static const string TYPE;
+	//static const string TYPE;
 	SymbolToken(string token);
 	void print();
 };
