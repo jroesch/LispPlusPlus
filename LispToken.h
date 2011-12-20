@@ -26,35 +26,35 @@ protected:
 class SymbolToken: public LispToken {
 public:
     //static const string TYPE;
-    SymbolToken(string token);
-    void print();
+	SymbolToken(string token);
+	void print();
 };
 
 //const string SymbolToken::TYPE = "SYMBOL";
 
 class StringToken: public LispToken {
 public:
-    //static const string TYPE;
-    StringToken(string token);
-    void print();
+	//static const string TYPE;
+	StringToken(string token);
+	void print();
 };
 
 //const string StringToken::TYPE = "STRING";
 
 class NumericToken: public LispToken {
 public:
-    //static const string TYPE;
-    NumericToken(string token);
-    void print();
+    	//static const string TYPE;
+	NumericToken(string token);
+	void print();
 };
 
 //const string NumericToken::TYPE = "NUMERIC";
 
 class CharacterToken: public LispToken {
 public:
-    //static const string TYPE;
-    CharacterToken(string token);
-    void print();
+    	//static const string TYPE;
+	CharacterToken(string token);
+	void print();
 };
 
 //const string CharacterToken::TYPE = "CHARACTER";
